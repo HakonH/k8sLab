@@ -1,3 +1,16 @@
+
+git init
+git remote add origin git@github.com:HakonH/k8sLab.git
+git status
+git pull origin fluxcd-2022
+git status
+## git config --global init.defaultBranch fluxcd-2022
+git status
+git branch -M fluxcd-2022
+git status
+code .
+
+
 flux bootstrap github \
   --token-auth \
   --owner=HakonH \
