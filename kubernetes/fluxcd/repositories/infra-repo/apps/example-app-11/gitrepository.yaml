@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: example-app-11
+  namespace: default
+spec:
+  interval: 1m0s
+  ref:
+    branch: fluxcd-2022
+  url: https://github.com/HakonH/k8sLab.git
