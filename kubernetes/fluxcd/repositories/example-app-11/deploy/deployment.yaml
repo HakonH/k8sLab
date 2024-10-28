@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app-11
-        image: example-app-1:0.0.11
+        image: example-app-11:0.0.11
         ports:
         - containerPort: 5001
         volumeMounts:
